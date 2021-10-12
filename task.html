@@ -66,8 +66,13 @@
   </body>
 
   <footer class="copyrights">
-      &copy; Hyperion Development. All Rights Reserved, Proudly created by <a class="hd">Hyperion Development</a>.
-      <br>
-      
+    &copy; Hyperion Development. All Rights Reserved, Proudly created by
+    <a class="hd">Hyperion Development</a>.
+    <br />
+    <p>last updated  | <span id="demo"></span></p>
+
+    <script>
+      document.getElementById("demo").innerHTML = document.lastModified;
+    </script>
   </footer>
 </html>

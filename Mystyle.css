@@ -11,6 +11,9 @@ p {
 }
 
 .image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     width: 300px;
     height: 300px;
 
@@ -19,6 +22,7 @@ p {
 img {
     width: 100%;
     height: 100%;
+    
 
 }
 body {

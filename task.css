@@ -73,4 +73,9 @@ li {
 
 .hd {
   color: cornflowerblue;
+  cursor: pointer;
+}
+
+.hd:hover {
+  color: crimson;
 }
